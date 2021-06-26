@@ -1,0 +1,28 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Roboto+Mono&display=swap');
+
+header {position: sticky; top:0; left:0; display: inline-block; height: 81px; text-align: center; min-width:100%; background-color: rgb(255, 255, 240);}
+
+header .hello{position: absolute; top : 20px; width:300px; height: 50px; line-height: 20px;}
+
+header .lnb {padding: 0 50px 0 50px; weight: 100%; height: 80px;}
+header .lnb ul{float : right;}
+header .lnb li{display: inline-block;}
+header .lnb li a{display: block; padding: 0 35px; font-size: 17px; color: #333; line-height: 81px;}
+header .lnb a span{position: relative;}
+header .lnb li a:hover span:after{content: ""; display: block; position: absolute; left: 0; bottom: -8px; width: 100%; height: 1px; background: #2d5b79;} 
+
+.I_main {margin: 0 0 20px 0; padding: 50px 100px 50px 100px; height: 600px;}
+.I_main .info{float:left; width : 300px; height:500px; text-align: center; }
+.I_main .info h3{padding : 100px 0 0 0; font-size: 70px; font-weight: 900; font-family: 'Roboto Mono', monospace; color : #d0291d; }
+.I_main .info .year{padding : 0 0 50px 0; color : #000;}
+.I_main .info p{font-size: 17px; font-weight: 900; font-family: 'Roboto Mono', monospace; line-height: 40px; color : #000;}
+
+.I_main .col {position :absolute; left: 30px; width : 500px; height : 600px; background : url(p1.png) no-repeat; opacity: 0.9;}
+
+.I_main .talk{width:100%; height: 80px; text-align: center;}
+.I_main .talk h2{ color : #000; font-size:40px; font-weight: 300; font-family: 'Jua', sans-serif; padding: 15px 0 0 0;}
+
+.I_main .Activity{float : left; display : inline-block; padding : 50px 0 20px 0; width: 1015px; text-align: center; }
+.I_main .Activity li {display : inline-block; width : 400px; height: 200px;  }
